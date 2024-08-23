@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .carousel-item img {
+        max-height: 500px;
+        width: auto;
+        margin: auto;
+      }
+      .carousel-inner {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cloudfront-us-east-1.images.arcpublishing.com/prisachile/MQMTSIPKXRDAFCUSYCFHSQ2FME.jpg" alt="Star Wars - Wikipedia, la enciclopedia libre">
+        </div>
+        <div class="carousel-item">
+          <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B38E9B3419A8AF5BA743C323CF835E7864A0406C310697CC34A072DE7E940FAD/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.contentapi.ea.com/content/dam/eacom/jedi-fallen-order/images/2019/09/jfo-lander-embark-16x9.jpg.adapt.crop191x100.628p.jpg" class="d-block w-100" alt="Imagen 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- COLUMNAS -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>JUEGOS</h2>
+          <p>Star Wars Eclipse.</p>
+          <p>Star Wars: Knights of the Old Republic - Remake</p>
+          <p>Star Wars: Outlaws</p>
+          <p>Star Wars: Bounty Hunter</p>
+          <p>Lego Star Wars: The Complete Saga</p>
+          <p>Star War Battlefront</p>
+          <p>Star Wars Battlefront II</p>
+          <p>Star Wars Jedi Fallen Order</p>
+          <p>Star Wars Jedi Survivor</p>
+        </div>
+        <div class="col-md-6">
+          <h2>PELICULAS</h2>
+          <p>Star Wars: Episodio I - La amenaza fantasma'</p>
+          <p>Star Wars: Episodio II - El ataque de los clones'</p>
+          <p>Star Wars: Episodio III - La venganza de los sith'</p>
+          <p>Rogue One: Una historia de Star Wars'</p>
+          <p>Star Wars: Episodio IV - Una nueva esperanza</p>
+          <p>Star Wars: Episodio V -'El imperio contraataca'</p>
+          <p>Star Wars: Episodio VI -El retorno del Jedi'</p>
+          <p>Star Wars: El despertar de la Fuerza'</p>
+          <p>Star Wars: Los últimos Jedi'</p>
+          <p> Star Wars: El ascenso de Skywalker'</p>
+        </div>
+      </div>
+    </div>
+<!-- ACCORDION -->
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Actores Principales
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Carrie Fisher, Ewan McGregor, Peter Mayhew, Hayden Christensen, Natalie Portman, Anthony Daniels, Mark Hamill</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Datos Curiosos
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Darth Vader tiene la voz y cuerpo de diferentes actores,El “Maestro Yoda” sería protagonizado por un mono, algo muy distinto a lo que conocemos hoy,. Los estrenos de cada entrega eran regalos de cumpleaños para George Lucas, Chewbacca es inspiración de un Alaskan Malamute</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Sinopsis de la primera pelicula emitida
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logran escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa.</div>
+    </div>
+  </div>
+</div>
